@@ -49,15 +49,15 @@ int main()
          << cinq
          << " nota(s) de R$ 50,00\n"
          << vinte
-         << " nota(s) de R$20,00\n"
+         << " nota(s) de R$ 20,00\n"
          << dez
-         << " nota(s) de R$10,00\n"
+         << " nota(s) de R$ 10,00\n"
          << cinco
          << " nota(s) de R$ 5,00\n"
          << dois
          << " nota(s) de R$ 2,00\n"
          << um
-         << " nota(s) de R$ 1,00\n"
+         << " nota(s) de R$ 1,00"
          << endl;
 
     return 0;
