@@ -1,0 +1,7 @@
+Declarar variável A de tipo int
+Declarar variável B de tipo int
+Declarar variável C de tipo int
+Declarar variável D de tipo int
+Atribuir valores Às variáveis A, B, C e D
+Checar condicional
+Imprimir

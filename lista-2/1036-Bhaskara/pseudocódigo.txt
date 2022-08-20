@@ -1,0 +1,9 @@
+Declarar variável A de tipo double
+Declarar variável B de tipo double
+Declarar variável C de tipo double
+Atribuir valores às variáveis A, B e C
+Calcular delta
+Verificar se é possível realizar a operação
+Se sim, realizar
+Se não, imprimir "Impossivel calcular"
+Imprimir raízes no formato "R# = ##.#####"
