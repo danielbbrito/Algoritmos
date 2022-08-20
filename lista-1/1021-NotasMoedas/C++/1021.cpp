@@ -50,14 +50,11 @@ int main()
     int zerocinco = N / 0.05;
     N -= zerocinco * 0.05;
 
-    int zeroum = N / 0.01;
+    float zeroum = N / 0.01;
     N -= zeroum * 0.01;
-    
-    // O problema arredonda nos casos de teste aparentemente
-    if (N >= 0.009)
-    {
-        zeroum++;
-    }
+
+    // Necessário arrendondar, pois é possível que os cassos de teste considerem 0.09 como sendo 0.1
+    zeroum = round(zeroum);
 
     cout << "NOTAS:\n"
          << cem
@@ -84,8 +81,8 @@ int main()
          << zerocinco
          << " moeda(s) de R$ 0.05\n"
          << zeroum
-         << " moeda(s) de R$ 0.01\n"
+         << " moeda(s) de R$ 0.01"
          << endl;
-    
+
     return 0;
 }
