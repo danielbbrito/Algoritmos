@@ -1,0 +1,5 @@
+Declarar váriavel raio de tipo double
+Declarar e inicializar constante pi de tipo double com valor 3.14159
+Atribuir valor à variável raio
+Calcular o raio da área na variável
+Imprimir raio no formato "A=##.####"

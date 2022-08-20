@@ -1,0 +1,5 @@
+Declarar variável A de tipo int
+Declarar variável B de tipo int
+Atribuir valores às variáveis A e B
+Calcular soma
+Imprimir soma no formato "SOMA = "

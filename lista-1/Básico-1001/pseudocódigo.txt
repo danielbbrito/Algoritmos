@@ -1,0 +1,5 @@
+Declarar variável A de tipo int
+Declarar variável B de tipo int
+Armazenar dois valores, um em cada variável
+Somar A e B, atribuindo o valor da soma a uma variável X
+Imprimir X no formato "X = ###"
