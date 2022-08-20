@@ -6,10 +6,10 @@ int main()
 {
     // Declarar variável N
     int N;
-    
+
     // Atribuir valor à N
     do
-    cin >> N;
+        cin >> N;
     while (N < 0 || N > 1000000);
 
     // Armazenar valor total de notas
@@ -32,7 +32,7 @@ int main()
     // Calcular cédulas de 5
     int cinco = N / 5;
     N -= cinco * 5;
-    
+
     // Calcular cédulas de 2
     int dois = N / 2;
     N -= dois * 2;
@@ -57,7 +57,8 @@ int main()
          << dois
          << " nota(s) de R$ 2,00\n"
          << um
-         << " nota(s) de R$ 1,00\n";
+         << " nota(s) de R$ 1,00\n"
+         << endl;
 
     return 0;
 }
