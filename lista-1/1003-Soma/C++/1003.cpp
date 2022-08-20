@@ -18,4 +18,6 @@ int main()
     cout << "SOMA = "
          << soma
          << endl;
+    
+    return 0;
 }
