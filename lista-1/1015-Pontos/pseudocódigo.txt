@@ -1,0 +1,5 @@
+Declarar variáveis x1, y1, x2, y2 de tipo float
+Atribuir valores a x1 e y1
+Atribuir valores a x2 e y2
+Calcular distância
+Imprimir distância no formato "##.####"

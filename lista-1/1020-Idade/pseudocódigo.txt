@@ -1,0 +1,8 @@
+Declarar variável N de tipo int
+Atribuir valor à N
+Declarar e atribuir valor à variável anos (N / 365)
+Atualizar o valor de N reduzindo valor pelos dias nos anos registrados
+Declarar e atribuir valor à variável anos (N / 30)
+Atualizar o valor de N reduzindo valor pelos dias nos meses registrados
+Declarar e atribuir valor à variável dias com o valor de N
+Imprimir anos, dias e meses no formato "# ____(_)"

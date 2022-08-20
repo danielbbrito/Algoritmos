@@ -1,0 +1,5 @@
+Declarar variável tempo de tipo int
+Declarar variável vel de tipo int
+Atribuir valores às variáveis tempo e vel
+Calcular gasto para a distância percorrida (tempo x vel)
+Imprimir gasto no formato "##.###"

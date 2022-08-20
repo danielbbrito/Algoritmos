@@ -1,0 +1,10 @@
+Declarar variável c1 de tipo int
+Declarar variável n1 de tipo int
+Declarar variável p1 de tipo float
+Declarar variável c2 de tipo int
+Declarar variável n2 de tipo int
+Declarar variável p2 de tipo float
+Atribuir valores às variáveis c1, n1, p1
+Atribuir valores às variáveis c2, n2, p2
+Calcular valor a ser pago com a fórmula valor = n1 * p1 + n2 * p2
+imprimir valor no formato "VALOR A PAGAR: ###.##"

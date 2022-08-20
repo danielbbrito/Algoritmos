@@ -1,0 +1,7 @@
+Declarar variável N
+Atribuir valor à variável N
+Criar variável minutos para horas e atribuir valor usando (N / 60)
+Criar variável segundos e atribuir valor usando o resto da divisão acima (N % 60)
+Criar variável horas e atribuir valor usando (minutos / 60)
+Atualizar minutos com os minutos restantes utilizando (minutos % 60)
+Imprimir horas, minutos e segundos no formato "#:##:##"

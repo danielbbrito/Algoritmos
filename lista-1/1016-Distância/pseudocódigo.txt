@@ -1,0 +1,4 @@
+Declarar variável dist de tipo int
+Atribuir valor a dist
+Calcular tempo
+Imprimir tempo no modelo "## minutos"
