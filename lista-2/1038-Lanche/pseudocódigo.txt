@@ -1,0 +1,6 @@
+Declarar variável item de tipo int
+Declarar variável quant de tipo int
+Declarar variável total de tipo float
+Verificar condicionais a fim de determinar preço do item
+Atribuir valor à variável total (quant * preço)
+Imprimir preço do item no formato "Total: R$ "

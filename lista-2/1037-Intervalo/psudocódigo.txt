@@ -1,0 +1,4 @@
+Declarar variável num de tipo float
+Atribui valor à variável num
+Se num estiver em um dos intervalos, imprimir "Intervalo (##,##]"
+Se não, Imprimir "Fora de intervalo"

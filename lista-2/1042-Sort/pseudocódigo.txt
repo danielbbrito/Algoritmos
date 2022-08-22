@@ -1,0 +1,16 @@
+Declarar variável a de tipo int
+Declarar variável b de tipo int
+Declarar variável c de tipo int
+Atribuir valores às variáveis a, b e c
+Criar array com a, b e c
+Verificar se array1 é maior que array2
+Se sim, manter posições
+Se não, mudar posições
+Verificar se array2 é maior que array3
+Se sim, manter posições
+Se não, mudar posições
+Verificar se array1 é maior que array3
+Se sim, manter posições
+Se não, mudar posições
+Imprimir array
+Imprimir a, b e c

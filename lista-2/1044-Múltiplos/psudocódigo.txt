@@ -1,0 +1,6 @@
+Declarar variável A de tipo int
+Declarar variável B de tipo int
+Atribuir valores à A e B
+Verificar se A e B são múltiplos
+Se sim, imprimir "Sao multiplos"
+Se não, imprimir "Nao sao multiplos"

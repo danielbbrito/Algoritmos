@@ -1,0 +1,12 @@
+Declarar variável h1 de tipo int
+Declarar variável n1 de tipo int
+Declarar variável h2 de tipo int
+Declarar variável m2 de tipo int
+Atribuir valores às variáveis h1, m1, h2, m2
+Inicializar variável min_i de tipo int e de valor (h1 * 60 + m1)
+Inicializar variável min_f de tipo int e de valor (h2 * 60 + m2)
+Inicializar variável min_t de tipo int e de valor (minutos_f - minutos_i)
+Inicializar variável horas de tipo int e de valor (minutos_t / 60)
+Inicializar variável min de tipo int e de valor (minutos_t % 60)
+Imprimir horas e min no formato "O JOGO DUROU # HORA(S) E # MINUTO(S)"
+

@@ -1,0 +1,9 @@
+Declarar variável A de tipo float
+Declarar variável B de tipo float
+Declarar variável C de tipo float
+Atribuir valores às variáveis A, B e C
+Verificar se um triângulo pode ser formado com os valores A, B e C
+Se sim, calcular perímetro do triângulo e imprimir no formato "Perimetro = ##.#"
+Se não, calcular área do trapézio possível e imprimir no formato "Area = "
+
+

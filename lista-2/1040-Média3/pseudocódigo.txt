@@ -1,0 +1,16 @@
+Declarar variável n1 de tipo float
+Declarar variável n2 de tipo float
+Declarar variável n3 de tipo float
+Declarar variável n4 de tipo float
+Calcular médias com pesos 2, 3, 4, 1, respectivamente
+Imprimir média no formato "Media: "
+Se média >= 7.0, imprimir "Aluno aprovado."
+Se média < 5.0, imprimir "Aluno reprovado."
+Se 5 <= média < 7.0, imprimir "Aluno em exame."
+Declarar variável exame de tipo float
+Atribuir valor à variável exame
+Imprimir nota do exame no formato "Nota do exame: "
+Calcular nova média ((média + exame) / 2)
+Se nova média >= 5.0 imprimir "Aluno aprovado."
+Se nova média < 5.0 imprimir "Aluno reprovado."
+

@@ -1,0 +1,4 @@
+Declarar variável x de tipo float
+Declarar variável y de tipo float
+Atribuir valores às variáveis x e y
+Verificar condicionais a fim de determinar o quadrante

@@ -1,0 +1,12 @@
+Declarar variável A de tipo double
+Declarar variável B de tipo double
+Declarar variável C de tipo double
+Atribuir valores às variáveis A, B e C
+Ordenar valores
+Verificar que tipo de triângulo é formado
+se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
+se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO
+se A2 > B2 + C2, apresente a mensagem: TRIANGULO OBTUSANGULO
+se A2 < B2 + C2, apresente a mensagem: TRIANGULO ACUTANGULO
+se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO
+se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
