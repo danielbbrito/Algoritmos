@@ -1,0 +1,7 @@
+Declarar variável vertebra de tipo string
+Declarar variável tipo de tipo string
+Declarar variável alimentação de tipo string
+Verificar se vertebrado ou invertebrado
+Verificar tipo
+Verificar alimentação
+Imprimir animal

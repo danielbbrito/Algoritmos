@@ -1,0 +1,6 @@
+Declarar variável h1 de tipo int
+Declarar variável h2 de tipo int
+Atribuir valores à h1 e h2
+Se h1 for maior que h2, realizar (24 - h1 + h2) para calcular duração
+Se não, Subtratir h2 e h1 e atribuir à variável dur
+Se resultado é 0, atualizar resultado para 24

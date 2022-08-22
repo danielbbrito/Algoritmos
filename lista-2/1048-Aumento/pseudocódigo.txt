@@ -1,0 +1,7 @@
+Declarar variável sal de tipo float
+Declarar variável reajuste de tipo float
+Declarar variável percentual de tipo int
+Atribuir valores à variavel sal
+Calcular novo salário
+Calcular valor de reajuste
+Imprimir valores
