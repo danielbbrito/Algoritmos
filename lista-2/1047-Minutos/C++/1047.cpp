@@ -24,11 +24,14 @@ int main()
     int horas = abs(min_t) / 60;
     int minutos = abs(min_t) % 60;
 
+    // Se min_t == 0, atualizar valor de horas
     if (min_t == 0)
     {
         horas = 24;
     }
 
+    /* Se m1 > m2 e h1 == h2 out h1 > h2, 
+    atualizar o valor de horas e de minutos para impedir erros*/
     else if (h1 == h2 && m1 > m2 || h1 > h2)
     {
         horas = 24 - (h1 - h2) - 1;
