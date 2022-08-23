@@ -1,3 +1,4 @@
+/*REVISITAR ESSA SOLUÇÃO*/
 #include <iostream>
 
 using namespace std;
@@ -19,45 +20,38 @@ int main()
 
     int min_t = min_f - min_i;
 
-    // Se o jogo durar menos de um minuto, return
-    if (min_f < 1)
-    {
-        return 0;
-    }
+    // Minutos totais para horas
+    int horas = abs(min_t) / 60;
+    int minutos = abs(min_t) % 60;
 
-    int horas = min_t / 60;
-    int min = min_t % 60;
-
-    // Se o jogo durar 24 horas, é necessário atualizar horas de 0 para 24
-    if (h1 == h2 && m1 == m2)
+    if (min_t == 0)
     {
         horas = 24;
     }
 
-    // Se o jogo durar 23 horas, atualizar horas de 0 para 23
-    if (min_t < 0 && h1 == h2)
+    else if (h1 == h2 && m1 > m2 || h1 > h2)
     {
-        horas = 23;
+        horas = 24 - (h1 - h2) - 1;
+
+        if (horas == 24)
+        {
+            horas = 23;
+        }
+
+        minutos = 60 - (m1 - m2);
+
+        if (minutos >= 60)
+        {
+            minutos -= 60;
+        }
     }
 
-    // Se o jogo durar mais de 24 horas, return
-    if (horas > 24)
-    {
-        return 0;
-    }
-
-    // Se o jogo durar menos de uma hora (min_t negativos) min deve ser atualizado 
-    if (min < 0)
-    {
-        min = 60 + min_t;
-    }
-
-
+    
     // Output
     cout << "O JOGO DUROU "
          << horas
          << " HORA(S) E "
-         << min
+         << minutos
          << " MINUTO(S)"
          << endl;
 

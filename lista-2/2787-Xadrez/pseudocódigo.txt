@@ -1,0 +1,8 @@
+Declarar variável L de tipo int
+Declarar variável C de tipo int
+Declarar variável cor de tipo char*
+Atribuir valor à variável L entre 1 e 1000
+Atribuir valor à variável C entre 1 e 1000
+Se L == C -> cor = Branco
+Se L != C -> cor = Preto
+Imprimir cor

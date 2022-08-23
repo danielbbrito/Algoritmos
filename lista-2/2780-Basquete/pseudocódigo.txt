@@ -1,0 +1,7 @@
+Declarar variável D de tipo int
+Declarar variável ponto de tipo int
+Atribuir valor à variável D
+Se D <= 800 -> ponto == 1
+Se 800 < D <= 1400 -> ponto == 2
+Se 1400 < D <= 2000 -> ponto == 3
+Imprimir ponto

@@ -1,0 +1,11 @@
+Declarar variável dia1 de tipo int
+Declarar variável dia2 de tipo int
+Declarar variável tempo1 de tipo char[]
+Declarar variável tempo1 de tipo char[]
+Atribuir valor à variável dia
+Atribuir valor à variável tempo
+Separar horas, minutos e segundos
+Transformar dias, horas, minutos em segundos
+Calcular segundos totais
+Calcular dias, horas, minutos e segundos de eventos
+Imprimir dias, horas, minutos e segundos

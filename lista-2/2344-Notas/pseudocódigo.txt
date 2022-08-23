@@ -1,0 +1,7 @@
+Declarar variável N de tipo int
+Atribuir valor à variável N
+Se N == 0, imprimir "E"
+Se 1 <= N <= 35, imprimir "D"
+Se 35 < N <= 60, imprimir "C"
+Se 60 < N <= 85, imprimir "B"
+Se 85 < N <= 100, imprimir "A"

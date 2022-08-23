@@ -1,0 +1,8 @@
+Declarar variáveis ca, ba, pa de tipo int
+Declarar variáveis cr, br, pr
+Atribuir valores às variáveis [0, 100]
+Se cr > ca -> cr - ca
+Se br > ba -> cr - ca
+Se pr > pa -> pr - pa
+Somar resultados das subtrações
+Imprimir resultados

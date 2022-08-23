@@ -1,0 +1,4 @@
+Declarar variável mes de tipo int
+Atribuir valor à variável int
+Verificar mês
+Imprimir mês por extenso

@@ -1,0 +1,7 @@
+Declarar variável A1 de tipo int
+Declarar variável A2 de tipo int
+Declarar variável A3 e tipo int
+Declarar variável min de tipo int
+Atribuir valores às variáveis A1, A2 e A3, um por linha
+Verificar em qual andar a máquina deve ficar, de acordo com maioria relativa de funcionários
+Se o número de funcionários é igual, minutos == (A1 + A2) * 2 + A3

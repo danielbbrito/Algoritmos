@@ -1,0 +1,5 @@
+Declarar variável DDD de tipo int
+Atribuir valor à variável DDD
+Verificar a qual área o DDD pertence
+Se não existir, imprimir "DDD nao cadastrado"
+Se existir, imprimir área correspondente
