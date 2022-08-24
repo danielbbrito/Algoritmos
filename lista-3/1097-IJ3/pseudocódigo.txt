@@ -1,0 +1,7 @@
+Declarar variável I de valor 1 e tipo int
+Declarar variável J de valor 7 e tipo int
+Enquanto J != 13:
+    Remover 1 de J, duas vezes
+    Adicionar 2 a I
+    Adicionar 4 a J
+    Escrever I e J no formato "I=# J=#"

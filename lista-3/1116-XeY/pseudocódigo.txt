@@ -1,0 +1,10 @@
+Declarar variável N de tipo int
+Declarar variável X de tipo int
+Declarar variável Y de tipo int
+Usar for loop de i = 0 até N:
+    Ler valor para X
+    Ler valor para Y
+    Se Y = 0 escrever "divisao imposivel"
+    Se não realizar divisão X por Y
+    Imprimir divisão
+

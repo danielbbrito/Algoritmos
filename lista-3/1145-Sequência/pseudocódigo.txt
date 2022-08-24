@@ -1,0 +1,10 @@
+Declarar variável X de int int
+Declarar variável Y de int int
+Declarar variável num de valor 0 e tipo int
+Ler valores para X e Y
+Loop for de i = 0 até Y / X, incluso:
+    Loop for de j = 0 até X - 1:
+        Aumentar num em um
+        Escrever num para o console
+    aumentar num em um
+    Escrever num para o console

@@ -1,0 +1,7 @@
+Definir variável idade de tipo int
+Definir variável soma de tipo int
+Definir variável qtd de tipo int
+Ler valor de idade infinitamente:
+    Se valor não negativo, somar idade à soma e um à qtd
+    Se negativo, parar loop
+Calcular média soma / qtd

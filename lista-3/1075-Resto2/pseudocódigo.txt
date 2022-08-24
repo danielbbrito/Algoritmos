@@ -1,0 +1,4 @@
+Declarar variável n de tipo int
+Ler valor para n
+Loop for entre 1 e 10000:
+    Se resto de i % N == 2, escrever número

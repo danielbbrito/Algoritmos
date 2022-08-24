@@ -1,0 +1,10 @@
+Declarar variável n de tipo int
+Declarar variável x de tipo int
+Ler valor para n
+Loop for no intervalo [0, N[
+    Ler valor para x
+    Se x par e positivos, escrever EVEN POSITIVE
+    Se x par e negativo, escrever EVEN NEGATIVE
+    Se x impar e positivos, escrever EVEN POSITIVE
+    Se x impar e negativo, escrever EVEN NEGATIVE
+    Se x = 0, escrever NULL

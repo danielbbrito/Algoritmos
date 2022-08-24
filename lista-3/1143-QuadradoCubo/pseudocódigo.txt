@@ -1,0 +1,4 @@
+Declarar variável N de tipo int
+For loop de i = 1 até N, N incluso:
+    Escrever i, i^2 e i^3
+    Nova linha

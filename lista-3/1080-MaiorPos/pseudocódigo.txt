@@ -1,0 +1,9 @@
+Declarar variável valor de tipo int
+Declarar variável maior de tipo int
+Declarar variável posição de tipo int
+Loop for de 0 a 100:
+    Ler valor para valor
+    Se valor > maior atualizar valor de maior
+Escrever maior valor
+Escrever posicão
+

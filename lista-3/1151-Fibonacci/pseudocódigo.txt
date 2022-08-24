@@ -1,0 +1,12 @@
+Declarar variável n de tipo int
+Declarar variável num1
+Declarar variável num2
+Declarar variável num3
+Ler valor n
+for loop de i = 0 até n - 3:
+    num3 = num1 + num2
+    Escrever num3
+    num1 = num2
+    num2 = num3
+num3 = num1 + num2
+Escrever num3
