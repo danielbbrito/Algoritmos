@@ -1,0 +1,6 @@
+Declarar variável N de tipo int
+Declarar variável X de tipo ont
+Declarar variável in de tipo int
+Declarar variável out de tipo int
+Ler valor para variável N de tipo int
+for loop de 0 até N - 1 contando valores que estão dentro do intervalo [10, 20]

@@ -1,0 +1,12 @@
+Declarar variável pos de tipo int
+Declarar variável neg de tipo int
+Declarar variável par de tipo int
+Declarar variável impar de tipo int
+Declarar variável nums de tipo int
+Repetir 5 vezes:
+    Ler valor para num
+    Se nums > 0, adicionar um à pos
+    Se nums < 0, adicionar um à neg
+    Se nums % 2 == 0, adicionar um à par
+    Se num % 2 != 0, adicionar um à impar
+Output

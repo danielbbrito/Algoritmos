@@ -1,0 +1,8 @@
+Declarar variável nums de tipo float
+Declarar e inicializar variável qtd de tipo int
+Declarar e inicializar variável soma de tipo float
+Repetir 6 vezes:
+    Ler valor para nums
+    se nums > 0 adicionair 1 à qtd e somar nums à soma
+Calcular média
+Output

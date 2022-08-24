@@ -1,0 +1,5 @@
+Declarar variável x de tipo int
+Declarar variável y de tipo int
+Ler valor para x
+Ler valor para y
+Loop for de X até Y, se resto da divisão de i por 5 é 2 ou 3 imprimir número

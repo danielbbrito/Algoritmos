@@ -1,0 +1,4 @@
+Declarar e inicializar variável I de tipo int e valor 1
+Declarar e inicializar variável J de tipo int e valor 60
+Loop while até que J = 0
+Imprimir valores de I e J

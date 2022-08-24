@@ -1,0 +1,3 @@
+Declarar variável N de tipo int
+Ler valor no intervalo ]5, 2000[ para variável N
+For loop de 1 até N, se i é par, imprimir quadrado de i no formato "i^2 = ##"

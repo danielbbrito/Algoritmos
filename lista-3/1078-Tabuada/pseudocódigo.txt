@@ -1,0 +1,5 @@
+Declarar variável N de tipo int
+Ler valor no intervalo ]2, 1000[
+loop for de 1 até 10:
+    Calcular tabulada para N
+    Imprimir no formato "i X N = iN
