@@ -18,11 +18,11 @@ O primeiro passo é instalar um editor de texto de sua preferência. Aqui instal
 
 Siga o link https://code.visualstudio.com/Download e clique no botão de download para a versão windows do VS Code.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/NkZ8JrZ"  ><a href="//imgur.com/a/NkZ8JrZ">VSCODE down</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![vscodebaixar](https://imgur.com/a/NkZ8JrZ)
 
 O arquivo de instalação deve ter iniciado o download, uma vez que foi concluído, abra o arquivo e clique em "executar".
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/7p71vQm" data-context="false" ><a href="//imgur.com/a/7p71vQm"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![executar](https://imgur.com/S32LqoC)
 
 Siga os passos de instalação que serão apresentados.
 
@@ -30,11 +30,11 @@ Siga os passos de instalação que serão apresentados.
 
 Siga o link https://git-scm.com/downloads e clique em "Windows".
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/dQishjA" data-context="false" ><a href="//imgur.com/a/dQishjA"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![gitbaixar](https://imgur.com/olhvlqX)
 
 Clique em "64-bit Git for Windows Setup".
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/trpL8fu" data-context="false" ><a href="//imgur.com/a/trpL8fu"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![gitbaixar2](https://imgur.com/ImurDXB)
 
 Após o arquivo baixar, execute-o e clique em "install". O git deve ser instalado em seguida.
 
@@ -42,11 +42,11 @@ Após o arquivo baixar, execute-o e clique em "install". O git deve ser instalad
 
 Acesse github.com e crie uma conta usando um e-mail e senha de sua preferência.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/2bdCumt" data-context="false" ><a href="//imgur.com/a/2bdCumt"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![githubemail](https://imgur.com/RLNuRvy)
 
 Dentro do repositório, clique em "Code" e copie o link que aparece na tela.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/x2ic78P" data-context="false" ><a href="//imgur.com/a/x2ic78P"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![gitrepo](https://imgur.com/YavGzba)
 
 Abra o VS Code e realize o commando ctrl+shift+'.
 Um terminal PowerShell deve abrir. A seguir, use os seguintes comandos:
