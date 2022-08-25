@@ -1,0 +1,6 @@
+Declarar variável i de valor 0 e tipo int
+Declarar variável j de valor 1 e tipo int
+Enquanto i != 2:
+    Adicionar um à j, duas vezes, escrevendo i e j
+    Adicionar 0.2 à i, imprimindo i 
+    Detrair 1.8 de j, imprimindo j 

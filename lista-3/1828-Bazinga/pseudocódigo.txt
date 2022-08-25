@@ -1,0 +1,44 @@
+Declarar variável N de tipo int
+Declarar variáveis sheldon e raj de tipo string
+Ler valor para N
+Loop for de i = 0 até N
+    Ler valores para sheldon e raj:
+    Se sheldon == raj:
+        Escrever De novo!
+    Se sheldon tesoura e raj papel: *
+        Escrever Bazinga!
+    Se sheldon papel e raj tesoura: *
+        Escrever Raj trapaceou!
+    Se sheldon papel e raj pedra:*
+        Escrever Bazinga!
+    Se sheldon pedra e raj papel:*
+        Escrever Raj trapacear!
+    Se sheldon lagarto e raj Spock:*
+        Escrever Bazinga!
+    Se sheldon Spock e raj lagarto:*
+        Escrever Raj trapaceou!
+    Se sheldon Spock e raj tesoura:*
+        Escrever Bazinga!
+    Se sheldon tesoura e raj Spock:*
+        Escrever Raj trapaceou!
+    Se sheldon tesoura e raj lagarto:*
+        Escrever Bazinga!
+    Se sheldon lagarto e raj tesoura:*
+        Escrever Raj trapaceou!
+    Se sheldon lagarto e raj papel:*
+        Escrever Bazinga!
+    Se sheldon papel e raj lagarto:*
+        Escrever Raj trapaceou!
+    Se sheldon papel e raj Spock:*
+        Escrever Bazinga!
+    Se sheldon Spock e raj papel:*
+        Escrever raj trapaceou
+    Se sheldon Spock e raj pedra:*
+        Escrever Bazinga!
+    Se sheldon pedra e raj Spock:*
+        Escrever Raj trapaceou!
+    Se sheldon pedra e raj tesoura:
+        Escrever Bazinga!
+    Se sheldon tesoura e raj pedra:
+        Escrever Raj trapaceou!
+

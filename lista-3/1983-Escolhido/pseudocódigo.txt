@@ -1,0 +1,10 @@
+Declarar variável alunos de tipo int de valor [3, 100]
+Declarar variável nota de tipo float
+Declarar variável 
+Declarar variável escolhido de tipo string e valor "Minimum note not reached"
+Declarar variável matricula de tipo string
+Loop for de 0 até alunos:
+    Ler valores de matricula e nota
+    Se nota >= 8 e nota > maior_nota, escolhido = matricula e maior_nota = nota
+Escrever matrícula
+
