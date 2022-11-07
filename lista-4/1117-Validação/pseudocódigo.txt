@@ -1,0 +1,18 @@
+Declarar variáveis buffer1, buffer2, nota1, nota2 de tipo float
+Loop infinito:
+    Ler valores para buffer1 e buffer2
+    Se buffer1 dentro do intervalo [0, 10]
+        nota1 = buffer1
+    Senao:
+        Imprimir "nota invalida"
+    Se buffer2 dentro do intervalo e nota1 != 0
+        nota2 = buffer2
+    Senao:
+        Imprimir "nota invalida"
+    Se nota1 e nota2 validas:
+        sair do loop
+    
+    Calcular media
+    Imprimir média "media = ##.###
+    
+    

@@ -1,0 +1,9 @@
+Declarar variável N de tipo int
+Declarar variável seq de valor 0 e tipo int
+Ler valor para N
+Loop de i = 0 até N para contagem de linhas:
+    Loop de j = 0 até 3 para impressão de números em cada linha:
+        seq++
+        Escrever seq
+    seq++
+    Escrever PUM e nova linha

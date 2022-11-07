@@ -1,0 +1,9 @@
+Declarar variável c de tipo int
+Declarar variável x de tipo int
+Declarar variável y de tipo int
+Criar vetor contendo as músicas
+Ler valor de c
+Loop de i = 0 até c:
+    Ler valores para x e y
+    Somar x e y
+    Imprimir música correspondente

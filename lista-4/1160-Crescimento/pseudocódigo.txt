@@ -1,0 +1,11 @@
+Declarar variável T para número de casos de teste
+Declarar variáveis pa e pb de tipo int
+Declarar variável anos de tipo int
+Declarar variáveis g1 e g2 de tipo double
+Loop de i = 0 até T:
+    Ler valores para pa, pb, g1, g2
+    Enquanto pa < pb:
+         Adicionar 1 a anos
+         Calcular crescimento anual real com a fórmula pa *= (1 + ((g1 - g2) / 100))
+    Se pa > 100 imprimir "Mais de um século."
+    Senão imprimir "## anos."

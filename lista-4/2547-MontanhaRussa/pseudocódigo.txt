@@ -1,0 +1,6 @@
+Declarar variáveis n, amax, amin, altura, visitantes de tipo int
+Ler valor para n, amax, amin
+Loop de i = 0 até n:
+    ler valor para altura
+    Se amin <= altura <= amax:
+        adicionar um a visitantes

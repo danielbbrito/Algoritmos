@@ -1,0 +1,23 @@
+Declarar variável Gremio,gremio_total, vitoria_gremio de tipo int
+Declarar variável Inter,inter_total, vitoria_inter de tipo int
+Declarar variável simnao, grenais de tipo int
+Enquanto n != 2, faça:
+    Ler valor para inter, grêmio
+    Se inter > gremio:
+        vitoria_inter++
+    Senão:
+        vitoria_gremio++
+    Imprimir "Novo grenal (1-sim 2-nao)"
+    Ler valor para simnao
+    Se simnao = 1:
+        grenais++
+    Se grenais = 0:
+        break
+Imprimir "### grenais"
+Imprimir "Inter: ##"
+Imprimir "Gremio: ##"
+Imprimir "Empates: ##"
+Se vitoria_inter > vitoria_gremio:
+    Imprimir "Inter venceu mais"
+Senão:
+    Imprimir "Gremio venceu mais"

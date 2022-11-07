@@ -1,0 +1,16 @@
+Declarar variáveis
+Ler valor para n
+Repetir de 0 até n:
+    Ler valores para x, y(char[3])
+    Se y for bin:
+        Calcular valor decimal
+        Calcular valor hexadecimal
+        Imprimir ambos valores
+    Se y for dec:
+        Calcular valor hex
+        Calcular valor bin
+        Imprimir ambos valores
+    Se y for hex:
+        Calcular valor dec
+        Calcular valor bin
+        Imprimir ambos os valores

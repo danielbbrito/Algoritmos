@@ -1,0 +1,16 @@
+Declarar variável n de tipo int
+Declarar variável gd de tipo float
+Criar vetor notas de tipo float
+Declarar variável nome de tipo string
+Ler valor para n
+Loop de i = 0 até n:
+    Ler valor para nome
+    Ler valor para gd
+    Loop de j = 0 até 7:
+        Ler valores para notas
+        Armazenar maior valor
+        Armazenar menor valor
+
+    Remover maior e menor valores de notas
+    Somar valores de notas e multiplicar por gd
+    Imprimir nome e nota final

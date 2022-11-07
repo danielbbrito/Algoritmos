@@ -1,0 +1,10 @@
+Declarar variável qt de tipo int
+Ler valor para qt
+Loop de 0 até qt:
+    Declarar vetor participante 1 de tipo string
+    Declarar vetor participante 2 de tipo string
+    Declarar variáveis v1 e v2
+    Ler valor dos vetores
+    Ler valor dos números
+    Somar v1 e v2
+    Verificar paridade

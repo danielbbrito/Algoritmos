@@ -1,0 +1,4 @@
+Declarar variáveis
+Ler valor para c
+Repetir de 0 até c
+    Ler valores para n 

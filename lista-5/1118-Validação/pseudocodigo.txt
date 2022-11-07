@@ -1,0 +1,6 @@
+Declarar variáveis
+Ler notas dos alunos
+Aceitar apenas notas do intervalo [0, 10]
+Calcular média
+Impriumir média
+Perguntar se devo continuar

@@ -1,0 +1,5 @@
+Declarar variáveis
+Ler data
+Guardar cada número em um slot em um vetor
+Converter data para os formatos pedidos
+Imprimir cada formato pedido

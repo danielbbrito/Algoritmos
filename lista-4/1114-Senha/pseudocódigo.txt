@@ -1,0 +1,4 @@
+Declarar variável senha
+Loop infinito:
+    Se senha = 2002, imprimir "Acesso Permitido" e sair do loop
+    Imprimir "Senha Invalida"

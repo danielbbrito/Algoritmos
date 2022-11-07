@@ -1,0 +1,14 @@
+Declarar variável N de tipo int
+Declarar variáveis num1 e num2 de valor 1 e tipo int
+Declarar variável num3 de valor 2 e tipo int
+Declarar vetor threebonacci
+
+For loop de i = 0 até N * 3:
+    num3 = num1 + num2
+    num1 = num2
+    num2 = num3
+
+    Se num3 for múltiplo de 3 ou conter algarismo 3:
+        Adicionar ao vetor
+    
+    Imprimir elemento n do vetor threebonacci

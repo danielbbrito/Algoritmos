@@ -1,0 +1,8 @@
+Declarar variáveis
+Ler n
+De 0 até n:
+    Ler x
+    Se x menor que 2 Imprimir não é primo
+    De i = 2 até x:
+        Se divisão de x por qualquer número na repetição tiver resto 0, imprimir não é primo
+        SEnão, primo
