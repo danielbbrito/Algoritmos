@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     // Declarar variáveis
-    int n, h, picos=0;
+    int n, h, picos;
     vector<int> amostras;
 
     // Ler n
@@ -14,6 +14,7 @@ int main()
 
     while (n != 0)
     {
+        picos = 0;
         // Popular vetor
         for (int i = 0; i < n; i++)
         {
@@ -22,27 +23,25 @@ int main()
             amostras.push_back(h);
         }
 
-        // Verificar primeira amostra, verificar restante
-        if ((amostras.front() < amostras.back() && amostras.front() < amostras[1]) || (amostras.front() > amostras.back() && amostras.front() > amostras[1]))
-        {
+        // verificar primeiro ponto
+        if ((amostras.front() > amostras[1] && amostras.front() > amostras.back()) || (amostras.front() < amostras[1] && amostras.front() < amostras.back()))
             picos++;
-        }
 
+        // Verificar ultimo ponto
+        if ((amostras.back() > amostras.front() && amostras.back() > *(amostras.end() - 1)) || (amostras.back() < amostras.front() && amostras.back() < *(amostras.end() - 1)))
+            picos++;
+        
 
-
-        for (auto itr = amostras.begin() + 1; itr != amostras.end(); itr++)
+        for (int i = 1; i < amostras.size() - 1; i++)
         {
-            if (*(itr - 1) < *itr && *(itr + 1) < *itr || *(itr - 1) > *itr && *(itr + 1) > *itr)
-            {
+            if ((amostras[i] > amostras[i + 1] && amostras[i] > amostras[i - 1]) || (amostras[i] < amostras[i + 1] && amostras[i] < amostras[i - 1]))
                 picos++;
-            }
         }
 
+        if (n == 2)
+            picos = 2;
+            
         cout << picos << endl;
-
-        picos = 0;
-        amostras.clear();
-
         cin >> n;
     }
 

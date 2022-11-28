@@ -7,37 +7,43 @@ using namespace std;
 int main()
 {
     // Declarar variáveis
-    char l;
-    int m, n, pares=0;
-    vector<pair<int, char>> botas;
-
+    char aux_l;
+    int n, aux_m, pares=0;
+    vector<int> m;
+    vector<char> l;
+    // Ler n
     while (cin >> n)
     {
+        // Popular vetores
         for (int i = 0; i < n; i++)
         {
-            // Popular vetor com tamanho e pé de cada bota
-            cin >> m >> l;
-            botas.push_back(make_pair(m, l));
+            cin >> aux_m;
+            m.push_back(aux_m);
+
+            cin >> aux_l;
+            l.push_back(aux_l);
         }
 
-        // Iterar sobre o vetor
-        for (int k = 0; k < botas.size(); k++)
+        for (int j = 0; j < m.size(); j++)
         {
-            for (int j = 1; j < botas.size(); j++)
+            for (int k = j + 1; k < m.size(); k++)
             {
-                if (botas[k].first == botas[j].first && botas[k].second != botas[j].second)
+                if (m[j] == m[k] && l[j] != l[k])
                 {
                     pares++;
-                    botas.erase(botas.begin() + j);
+                    m.erase(m.begin() + k);
+                    l.erase(l.begin() + k);
                     continue;
                 }
             }
         }
 
-        cout << pares << endl;
-        botas.clear();
+        cout << pares << "\n";
+        m.clear();
+        m.shrink_to_fit();
+        l.clear();
+        l.shrink_to_fit();
         pares = 0;
     }
-
     return 0;
 }
