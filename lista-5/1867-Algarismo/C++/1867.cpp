@@ -3,58 +3,47 @@
 
 using namespace std;
 
+#define str(x) to_string(x);
+
+string convert(string &n);
+
 int main()
 {
     // Declarar variáveis
-    long long m, n, aux=0;
+    string n, m;
 
-    // Ler m, n
-    cin >> m >> n;
-
-    // Repetir até que entrada seja 0
-    while (m != 0 && n != 0)
+    // Ler n e m
+    cin >> n >> m;
+    while (n != "0" && m != "0")
     {
-        // Verificar primeiro número
-        while (to_string(m).length() > 1)
-        {
-            string m_str = to_string(m);
+        // Converter n e m
+        convert(n);
+        convert(m);
 
-            for (int i = 0; i < m_str.length(); i++)
-            {
-                aux += (int)(m_str[i] - 48);
-            }
-
-            m = aux;
-            aux = 0;
-        }
-
-        while (to_string(n).length() > 1)
-        {  
-            string n_str = to_string(n);
-
-            for (int j = 0; j < n_str.length(); j++)
-            {
-                aux += (int)(n_str[j] - 48);
-            }
-
-            n = aux;
-            aux = 0;
-        }
-
-        if (m > n)
-        {
+        if (n > m)
             cout << 1 << endl;
-        }
-        else if (m < n)
-        {
+        else if (m > n)
             cout << 2 << endl;
-        }
         else
-        {
             cout << 0 << endl;
-        }
 
-        cin >> m >> n;
+        cin >> n >> m;
     }
-    return 0;
+
+}
+
+string convert(string &n)
+{
+    // Converter n para string
+
+    while (n.length() != 1)
+    {
+        int soma = 0;
+        for (int i = 0; i < n.length(); i++)
+            soma += (int)(n[i] - 48);
+
+        n = str(soma);
+    }
+
+    return n;
 }
