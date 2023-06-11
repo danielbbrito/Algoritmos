@@ -7,40 +7,51 @@ using namespace std;
 int main()
 {
     // Declarar variáveis
-    vector<string> texto;
-    string txt;
+    bool is_f=false, f_before=false;
+    char c;
+    vector<char> f {'j', 'p', 's', 'v', 'b', 'x', 'z', 'j'};
+    vector<char> F{'J', 'P', 'S', 'V', 'B', 'X', 'Z', 'J'};
 
-    // Loop while cin para pegar o input
-    while (!cin.eof())
+    // Input até EOF
+    while (cin >> c)
     {
-        getline(cin, txt);
-
-        for (int i = 0; i < txt.length(); i++)
+        // Se caractere for aceitável, mudá-lo para f
+        for (int i = 0; i < 8; i++)
         {
-            if (txt[i - 1] == 'f' || txt[i - 1] == 'F' || txt[i + 1] == 'f' || txt[i + 1] == 'F')
+            is_f = false;
+
+            if (c == f[i])
             {
-                txt.erase(i, 1);
+                c = 'f';
+                is_f = true;
             }
-            else if (txt[i] == 'j' || txt[i] == 'p' || txt[i] == 's' || txt[i] == 'v' ||
-                txt[i] == 'b' || txt[i] == 'x' || txt[i] == 'z' )
+            else if (c == F[i])
             {
-                txt[i] = 'f';
-            }
-            else if (txt[i] == 'J' || txt[i] == 'P' || txt[i] == 'S' || txt[i] == 'V' ||
-                     txt[i] == 'B' || txt[i] == 'X' || txt[i] == 'Z')
-            {
-                txt[i] = 'F';
+                c = 'F';
+                is_f = true;
             }
         }
-        texto.push_back(txt);
-        //cout << txt << "\n";
-    }
-    cout << "\n";
-    for (auto itr = texto.begin(); itr != texto.end(); itr++)
-    {
-        cout << *itr << "\n";
-    }
-    cout << flush;
 
+
+        if (is_f)
+        {
+            if (f_before)
+                continue;
+            else
+            {
+                cout << c;
+                f_before = true;
+            }
+            
+        }
+
+        else
+        {
+            cout << c;
+            f_before = false;
+        }
+    }
+
+    cout << endl;
     return 0;
 }
